@@ -18,5 +18,10 @@ namespace DataGrid
             Precio = precio;
             Cantidad = cantidad;
         }
+
+        public override string ToString()
+        {
+            return $"{Nombre},{Precio},{Cantidad}";
+        }
     }
 }
